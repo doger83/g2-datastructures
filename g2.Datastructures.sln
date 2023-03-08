@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "g2.Datastructures", "src\DotNet6\Library\src\g2.Datastructures\g2.Datastructures.csproj", "{F3B6B68B-18A0-4A1B-B5A7-11B769432D5C}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E11E27DF-E8B8-4521-8228-33FE6F5E5E64}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNet6", "DotNet6", "{460F3A7C-24D4-4E52-88D6-0AAC73D23ABF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{031972FD-2B83-4F6A-842D-1DB1006B7C59}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{031972FD-2B83-4F6A-842D-1DB1006B7C59}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FD24AE91-2C73-47A3-86CD-D6E84E4F60B5}"
 EndProject
@@ -31,26 +29,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicDesktopQuadtreeExample
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicDesktopQuadtreeExample", "examples\DotNet6\WPF\BasicDesktopQuadtreeExample\BasicDesktopQuadtreeExample.csproj", "{508D60B8-24C8-406B-81EA-8E65ED38A5C3}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "g2.Datastructures", "src\DotNet6\Api\src\g2.Datastructures\g2.Datastructures.csproj", "{33382C71-28AA-429B-80D6-095EF0061E03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F3B6B68B-18A0-4A1B-B5A7-11B769432D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F3B6B68B-18A0-4A1B-B5A7-11B769432D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F3B6B68B-18A0-4A1B-B5A7-11B769432D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F3B6B68B-18A0-4A1B-B5A7-11B769432D5C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{508D60B8-24C8-406B-81EA-8E65ED38A5C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{508D60B8-24C8-406B-81EA-8E65ED38A5C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{508D60B8-24C8-406B-81EA-8E65ED38A5C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{508D60B8-24C8-406B-81EA-8E65ED38A5C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33382C71-28AA-429B-80D6-095EF0061E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33382C71-28AA-429B-80D6-095EF0061E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33382C71-28AA-429B-80D6-095EF0061E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33382C71-28AA-429B-80D6-095EF0061E03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F3B6B68B-18A0-4A1B-B5A7-11B769432D5C} = {97A31ACF-C8A7-48D7-9C44-A67B8648427C}
 		{460F3A7C-24D4-4E52-88D6-0AAC73D23ABF} = {E11E27DF-E8B8-4521-8228-33FE6F5E5E64}
 		{031972FD-2B83-4F6A-842D-1DB1006B7C59} = {460F3A7C-24D4-4E52-88D6-0AAC73D23ABF}
 		{FD24AE91-2C73-47A3-86CD-D6E84E4F60B5} = {031972FD-2B83-4F6A-842D-1DB1006B7C59}
@@ -62,6 +61,7 @@ Global
 		{8B93659C-7BFB-4FB4-8471-06FEE55E5581} = {53A324F7-C3FA-4ED7-BAC0-25E82DF539D0}
 		{1AA785AA-C73A-4F54-AABE-37AC80428B76} = {8B93659C-7BFB-4FB4-8471-06FEE55E5581}
 		{508D60B8-24C8-406B-81EA-8E65ED38A5C3} = {1AA785AA-C73A-4F54-AABE-37AC80428B76}
+		{33382C71-28AA-429B-80D6-095EF0061E03} = {97A31ACF-C8A7-48D7-9C44-A67B8648427C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {918D8CA9-6341-415D-B9AA-93E866FC7225}
