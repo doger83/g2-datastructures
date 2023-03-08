@@ -9,9 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\g2.Datastructures.csproj" />
+    <ProjectReference Include="..\..\..\..\src\DotNet6\Library\src\g2.Datastructures\g2.Datastructures.csproj" />
   </ItemGroup>
-
 
 
 </Project>

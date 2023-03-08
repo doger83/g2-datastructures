@@ -22,6 +22,7 @@ public class PointRegionQuadtree //: IQuadtree
     public PointRegionQuadtree? NorthEast { get; private set; }
     public PointRegionQuadtree? SouthEast { get; private set; }
     public PointRegionQuadtree? SouthWest { get; private set; }
+    public static int Count { get; set; }
 
     public bool InsertChatgpt(Point point)
     {
